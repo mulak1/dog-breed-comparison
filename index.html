@@ -1,0 +1,298 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>K♡P's Small Dog Breed Comparison</title>
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(135deg, #d6f0ff, #f0f9ff);
+        margin: 20px;
+        color: #333;
+    }
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #ff6f61; /* Pink title */
+        font-size: 2em;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        background: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    }
+    th, td {
+        padding: 12px 15px;
+        text-align: left;
+        border-bottom: 1px solid #e0e0e0;
+        vertical-align: top;
+    }
+    th {
+        background-color: #ffe6e1; /* Pink header row */
+        font-weight: 600;
+        font-size: 14px;
+        position: relative;
+    }
+    th.sortable {
+        cursor: pointer;
+    }
+    th.sortable.active::after {
+        content: attr(data-dir);
+        font-size: 14px;
+        position: absolute;
+        right: 10px;
+        color: #005f8f; /* Blue arrow for contrast */
+    }
+    tr:hover {
+        background-color: #fff8f6;
+    }
+    .images {
+        display: flex;
+        gap: 6px;
+    }
+    .images a img {
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+        border-radius: 6px;
+        border: 2px solid #ffd1c7;
+        transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+    .images a img:hover {
+        transform: scale(1.08);
+        border-color: #ff6f61;
+    }
+</style>
+</head>
+<body>
+<h1>K♡P's Small Dog Breed Comparison</h1>
+<table id="dogTable">
+<thead>
+<tr>
+    <th>Breed / Mix</th>
+    <th class="sortable" onclick="sortTable(1, 'weight')">Avg Weight (lbs)</th>
+    <th>Color</th>
+    <th>Temperament</th>
+    <th class="sortable" onclick="sortTable(4, 'bark')">Bark Likelihood</th>
+    <th>Images</th>
+    <th>Cute Name Ideas</th>
+</tr>
+</thead>
+<tbody>
+
+<tr>
+    <td>Toy Cavapoo</td>
+    <td>7-9</td>
+    <td>Cream, apricot, light gold</td>
+    <td>Gentle, cuddly, playful lapdog; low exercise needs</td>
+    <td>Low–Moderate</td>
+    <td class="images">
+        <a href="https://www.google.com/search?tbm=isch&q=Toy+Cavapoo" target="_blank">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.XFJgpaUU8zVpFGXrn7aV2QHaLH?pid=Api" alt="Toy Cavapoo 1">
+        </a>
+        <a href="https://www.google.com/search?tbm=isch&q=Toy+Cavapoo" target="_blank">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.1tSBB0JHG0Lx4emftKZUFQHaFj?pid=Api" alt="Toy Cavapoo 2">
+        </a>
+        <a href="https://www.google.com/search?tbm=isch&q=Toy+Cavapoo" target="_blank">
+            <img src="https://tse4.mm.bing.net/th/id/OIP.86H5qHo-oDdUUPXvcQZP8AHaJ4?pid=Api" alt="Toy Cavapoo 3">
+        </a>
+    </td>
+    <td>Peaches, Pixie, Niblet, Tinker, Pudding, Sprout</td>
+</tr>
+
+<tr>
+    <td>Mini/Toy Maltipoo</td>
+    <td>5-10</td>
+    <td>Cream, apricot, tan</td>
+    <td>Social, affectionate, low shedding</td>
+    <td>Moderate</td>
+    <td class="images">
+        <a href="https://www.google.com/search?tbm=isch&q=Mini/Toy+Maltipoo" target="_blank">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.U0ebQgjXd8SkcnsSNlbp8gHaJS?pid=Api" alt="Mini/Toy Maltipoo 1">
+        </a>
+        <a href="https://www.google.com/search?tbm=isch&q=Mini/Toy+Maltipoo" target="_blank">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.16rDUwoXJ0cqgbJ4NupV4AHaHw?pid=Api" alt="Mini/Toy Maltipoo 2">
+        </a>
+        <a href="https://www.google.com/search?tbm=isch&q=Mini/Toy+Maltipoo" target="_blank">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.QJobj5QLLBwIzOVpPNggdQHaI9?pid=Api" alt="Mini/Toy Maltipoo 3">
+        </a>
+    </td>
+    <td>Button, Poppy, Jellybean, Lolly, Petal, Sunny</td>
+</tr>
+
+<tr>
+    <td>Maltipoo (Standard)</td>
+    <td>10-14</td>
+    <td>Cream, light caramel, apricot</td>
+    <td>Loving, energetic, bond‑oriented</td>
+    <td>Moderate</td>
+    <td class="images">
+        <a href="https://www.google.com/search?tbm=isch&q=Maltipoo+(Standard)" target="_blank">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.QJobj5QLLBwIzOVpPNggdQHaI9?pid=Api" alt="Maltipoo (Standard) 1">
+        </a>
+        <a href="https://www.google.com/search?tbm=isch&q=Maltipoo+(Standard)" target="_blank">
+            <img src="https://tse3.mm.bing.net/th/id/OIP.gTYB0G3tvmqsB3ipOmIWTwHaJQ?pid=Api" alt="Maltipoo (Standard) 2">
+        </a>
+        <a href="https://www.google.com/search?tbm=isch&q=Maltipoo+(Standard)" target="_blank">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.16rDUwoXJ0cqgbJ4NupV4AHaHw?pid=Api" alt="Maltipoo (Standard) 3">
+        </a>
+    </td>
+    <td>Muffin, Biscuit, Nilla, Honeybun, Dottie</td>
+</tr>
+
+<tr>
+    <td>Cavapoo (Standard)</td>
+    <td>8-12</td>
+    <td>Cream, apricot, gold</td>
+    <td>Friendly, calm, cuddly; adaptable for families</td>
+    <td>Low–Moderate</td>
+    <td class="images">
+        <a href="https://www.google.com/search?tbm=isch&q=Cavapoo+(Standard)" target="_blank">
+            <img src="https://tse4.mm.bing.net/th/id/OIP.86H5qHo-oDdUUPXvcQZP8AHaJ4?pid=Api" alt="Cavapoo (Standard) 1">
+        </a>
+        <a href="https://www.google.com/search?tbm=isch&q=Cavapoo+(Standard)" target="_blank">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.XFJgpaUU8zVpFGXrn7aV2QHaLH?pid=Api" alt="Cavapoo (Standard) 2">
+        </a>
+        <a href="https://www.google.com/search?tbm=isch&q=Cavapoo+(Standard)" target="_blank">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.U0ebQgjXd8SkcnsSNlbp8gHaJS?pid=Api" alt="Cavapoo (Standard) 3">
+        </a>
+    </td>
+    <td>Maple, Blossom, Cupcake, Poppyseed, Twinkle</td>
+</tr>
+
+<tr>
+    <td>Havanese</td>
+    <td>7-13</td>
+    <td>Cream, golden, pale tan, sable</td>
+    <td>Cheerful, outgoing, loyal companion</td>
+    <td>Moderate</td>
+    <td class="images">
+        <a href="https://www.google.com/search?tbm=isch&q=Havanese" target="_blank">
+            <img src="https://tse4.mm.bing.net/th/id/OIP.V0pXLn8_Qoola5bPA155DgHaE8?pid=Api" alt="Havanese 1">
+        </a>
+        <a href="https://www.google.com/search?tbm=isch&q=Havanese" target="_blank">
+            <img src="https://tse3.mm.bing.net/th/id/OIP.gTYB0G3tvmqsB3ipOmIWTwHaJQ?pid=Api" alt="Havanese 2">
+        </a>
+        <a href="https://www.google.com/search?tbm=isch&q=Havanese" target="_blank">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.1tSBB0JHG0Lx4emftKZUFQHaFj?pid=Api" alt="Havanese 3">
+        </a>
+    </td>
+    <td>Sunny, Honey, Daisy, Pippa, Buttercup</td>
+</tr>
+
+<tr>
+    <td>Lhasa Apso</td>
+    <td>13-15</td>
+    <td>Golden, honey, sandy</td>
+    <td>Independent, loyal, alert</td>
+    <td>Moderate–High</td>
+    <td class="images">
+        <a href="https://www.google.com/search?tbm=isch&q=Lhasa+Apso" target="_blank">
+            <img src="https://tse3.mm.bing.net/th/id/OIP.gTYB0G3tvmqsB3ipOmIWTwHaJQ?pid=Api" alt="Lhasa Apso 1">
+        </a>
+        <a href="https://www.google.com/search?tbm=isch&q=Lhasa+Apso" target="_blank">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.XFJgpaUU8zVpFGXrn7aV2QHaLH?pid=Api" alt="Lhasa Apso 2">
+        </a>
+        <a href="https://www.google.com/search?tbm=isch&q=Lhasa+Apso" target="_blank">
+            <img src="https://tse4.mm.bing.net/th/id/OIP.86H5qHo-oDdUUPXvcQZP8AHaJ4?pid=Api" alt="Lhasa Apso 3">
+        </a>
+    </td>
+    <td>Goldie, Amber, Sandy, Tawny, Coco</td>
+</tr>
+
+<tr>
+    <td>Westie</td>
+    <td>15-20</td>
+    <td>Pure white (w/ wheat tint)</td>
+    <td>Confident, spirited, alert</td>
+    <td>High</td>
+    <td class="images">
+        <a href="https://www.google.com/search?tbm=isch&q=Westie" target="_blank">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.XFJgpaUU8zVpFGXrn7aV2QHaLH?pid=Api" alt="Westie 1">
+        </a>
+        <a href="https://www.google.com/search?tbm=isch&q=Westie" target="_blank">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.16rDUwoXJ0cqgbJ4NupV4AHaHw?pid=Api" alt="Westie 2">
+        </a>
+        <a href="https://www.google.com/search?tbm=isch&q=Westie" target="_blank">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.U0ebQgjXd8SkcnsSNlbp8gHaJS?pid=Api" alt="Westie 3">
+        </a>
+    </td>
+    <td>Snowflake, Sugar, Pearl, Waffle, Coconut</td>
+</tr>
+
+<tr>
+    <td>Bichon Frise</td>
+    <td>7-12</td>
+    <td>White, cream, apricot blends</td>
+    <td>Happy, playful, hypoallergenic</td>
+    <td>Low–Moderate</td>
+    <td class="images">
+        <a href="https://www.google.com/search?tbm=isch&q=Bichon+Frise" target="_blank">
+            <img src="https://tse4.mm.bing.net/th/id/OIP.86H5qHo-oDdUUPXvcQZP8AHaJ4?pid=Api" alt="Bichon Frise 1">
+        </a>
+        <a href="https://www.google.com/search?tbm=isch&q=Bichon+Frise" target="_blank">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.1tSBB0JHG0Lx4emftKZUFQHaFj?pid=Api" alt="Bichon Frise 2">
+        </a>
+        <a href="https://www.google.com/search?tbm=isch&q=Bichon+Frise" target="_blank">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.U0ebQgjXd8SkcnsSNlbp8gHaJS?pid=Api" alt="Bichon Frise 3">
+        </a>
+    </td>
+    <td>Cloud, Angel, Tinkerbell, Butterbean, Jelly</td>
+</tr>
+
+</tbody>
+</table>
+
+<script>
+function barkValue(text) {
+    const mapping = {
+        "low": 1,
+        "low–moderate": 2,
+        "moderate": 3,
+        "moderate–high": 4,
+        "high": 5
+    };
+    return mapping[text.toLowerCase()] || 0;
+}
+
+function weightValue(text) {
+    const match = text.match(/(\d+)-(\d+)/);
+    if (match) {
+        const low = parseInt(match[1]);
+        const high = parseInt(match[2]);
+        return (low + high) / 2;
+    }
+    return parseInt(text) || 0;
+}
+
+function sortTable(n, type) {
+    var table = document.getElementById("dogTable");
+    var rows = Array.from(table.rows).slice(1);
+    var dir = table.getAttribute("data-sort-dir") === "asc" ? "desc" : "asc";
+    table.setAttribute("data-sort-dir", dir);
+
+    document.querySelectorAll("th.sortable").forEach(th => th.classList.remove("active"));
+
+    var th = document.querySelectorAll("th.sortable")[type === 'weight' ? 0 : 1];
+    th.classList.add("active");
+    th.setAttribute("data-dir", dir === "asc" ? "↑" : "↓");
+
+    rows.sort(function(a, b) {
+        var xText = a.cells[n].innerText.trim();
+        var yText = b.cells[n].innerText.trim();
+        var xVal = type === "weight" ? weightValue(xText) : barkValue(xText);
+        var yVal = type === "weight" ? weightValue(yText) : barkValue(yText);
+
+        return dir === "asc" ? xVal - yVal : yVal - xVal;
+    });
+
+    rows.forEach(row => table.tBodies[0].appendChild(row));
+}
+</script>
+</body>
+</html>
